@@ -1,0 +1,117 @@
+.container {
+    width: 640px;
+    margin: auto;
+    margin-top: 150px;
+    background: white;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+    }
+    .container hr {
+    height: 2px;
+    border: none;
+    background: #707070;
+    }
+    .container h2 {
+    font-size: 27px;
+    font-weight: 500;
+    }
+    .container ul li {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-left: 15px;
+    border: 1px solid #686868;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    }
+    .container button {
+    margin: auto;
+    width: 250px;
+    height: 65px;
+    background: #553f9a;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    }
+    .container .index {
+    margin: auto;
+    font-size: 60px;
+    }
+    .correct {
+    background-color: lightgreen;
+    color: black;
+    }
+    .wrong {
+    background-color: lightcoral;
+    color: black;
+    }
+    .option {
+    padding: 10px;
+    cursor: pointer;
+    }
+    .option:hover {
+    opacity: 0.9;
+    }
+    .result {
+    text-align: center;
+    margin-top: 20px;
+    }
+    .result h2 {
+    font-size: 24px;
+    color: #333;
+    }
+    button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    }
+    .score {
+        font-size: 28px; 
+        color: #333; 
+        margin-top: 10px; 
+    }
+    .well-done {
+        font-size: 36px;
+        color: green;
+        font-weight: bold;
+        text-align: center;
+        animation: pulse 1.5s infinite;
+    }
+    
+    .better-luck {
+        font-size: 36px;
+        color: red;
+        font-weight: bold;
+        text-align: center;
+        animation: shake 0.5s;
+    }
+    
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    
+    @keyframes shake {
+        0% { transform: translateX(0); }
+        25% { transform: translateX(-5px); }
+        50% { transform: translateX(5px); }
+        75% { transform: translateX(-5px); }
+        100% { transform: translateX(0); }
+    }
+    
+    
